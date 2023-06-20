@@ -17,7 +17,7 @@ const questions = [
 	},
 	{
 	 	question: "Comment s'appelle cette console ?",
-		choices: ["La Super Nes","La Game cube","La P.S. 2","La nintendo 64"],
+		choices: ["La Super Nes","Le Game cube","La P.S. 2","La nintendo 64"],
 		correctAnswer : 3
 	},
 	{

@@ -7,7 +7,7 @@ const questions = [
     correctAnswer: 2
   },
   {
-    question: "Comment s'appelle les trois d\351esses de la série The Legend of Zelda ?",
+    question: "Comment s'appelle les trois d"\351"esses de la série The Legend of Zelda ?",
     choices: ["Din, Naryu et Farore", "Epona, Impa et Celesta", "Firone, Ordin et Lanelle", "Mojo, Goron et Gerudo"],
     correctAnswer: 2
   },

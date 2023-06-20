@@ -41,8 +41,7 @@ main {
 h1, h2 {
   margin-bottom: 5px;
   text-align: center;
-  font-size : 80%
-}
+  }
 
 ul {
   list-style-type: none;

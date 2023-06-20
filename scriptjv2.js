@@ -16,7 +16,7 @@ const questions = [
 	 	correctAnswer : 1
 	},
 	{
-	 	question: "Comment s'appelle le grand méchant de Super Mario Bross ?",
+	 	question: "Comment s'appelle le grand m\351chant de Super Mario Bross ?",
 		choices: ["Solid Snake","Luigi","Toad","Browser"],
 		correctAnswer : 3
 	},

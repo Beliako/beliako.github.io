@@ -7,7 +7,7 @@ const questions = [
     correctAnswer: 2
   },
   {
-    question: "Comment s'appelle les trois déesses de la série The Legend of Zelda ?",
+    question: "Comment s'appelle les trois d\351esses de la sÃ©rie The Legend of Zelda ?",
     choices: ["Din, Naryu et Farore", "Epona, Impa et Celesta", "Firone, Ordin et Lanelle", "Mojo, Goron et Gerudo"],
     correctAnswer: 2
   },
@@ -18,22 +18,22 @@ const questions = [
 	},
 	{
 	 	question: "Quel est l'ultime boss de Minecraft ?",
-		choices: ["Dragon de l'Ender","Warden", "Zombie Géant","Wither Storm"],
+		choices: ["Dragon de l'Ender","Warden", "Zombie GÃ©ant","Wither Storm"],
 		correctAnswer : 3
 	},
 	{
-	 	question: "Comment s'appelle le docteur qui accompagne le personnage principal dans Pokémon Arceus ?",
+	 	question: "Comment s'appelle le docteur qui accompagne le personnage principal dans PokÃ©mon Arceus ?",
 		choices: ["Romarin", "Thym", "Lavande", "Chiboulet"],
 		correctAnswer : 2
 	},
 	{
-	 	question: "Combien de pièces faut-il pour avoir les roues en or dans Mariokart 7 ?",
-		choices: ["Il ne faut pas pièces, elles se déploquent autrement","15k pièces","Je ne sais pas, personne ne joue à MarioKart7","100k pièces"], 
+	 	question: "Combien de piÃ¨ces faut-il pour avoir les roues en or dans Mariokart 7 ?",
+		choices: ["Il ne faut pas piÃ¨ces, elles se dÃ©ploquent autrement","15k piÃ¨ces","Je ne sais pas, personne ne joue Ã  MarioKart7","100k piÃ¨ces"], 
 		correctAnswer : 1
 	},
 	{
 	 	question: "Que veut dire PES ?",
-		choices: ["Pro Evolution Soccer","Playstation Etertainment System","Partie Extrèmement satisfaisante","Pro Energy Sega"],
+		choices: ["Pro Evolution Soccer","Playstation Etertainment System","Partie ExtrÃ¨mement satisfaisante","Pro Energy Sega"],
 		correctAnswer : 1
 		}
 		];
@@ -94,7 +94,7 @@ function checkAnswer() {
 function showResult() {
   const totalQuestions = questions.length;
 
-  questionElement.textContent = "Le questionnaire est terminé!";
+  questionElement.textContent = "Le questionnaire est terminÃ©!";
   choicesElement.style.display = "none";
   submitButton.style.display = "none";
 

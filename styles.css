@@ -16,14 +16,14 @@ nav ul {
 
 nav ul li {
   display: inline;
-margin-left: 120px;
+  margin-right: 75px;
 	text-align: center
 }
 
 nav ul li a {
   color: #000;
   text-decoration: none;
-	text-align: justify;
+	text-align: center;
 }
 
 
@@ -41,7 +41,7 @@ main {
 h1, h2 {
   margin-bottom: 5px;
   text-align: center;
-  }
+}
 
 ul {
   list-style-type: none;

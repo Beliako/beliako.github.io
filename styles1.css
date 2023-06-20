@@ -11,7 +11,7 @@ body {
 
 nav ul {
   list-style-type: none;
-	text-align: center
+text-align: center
 }
 
 nav ul li {
@@ -93,7 +93,7 @@ input {
 
 input:checked {
   border: 6px solid black;
-  outline: unset !important /* I added this one for Edge (chromium) support */
+  outline: unset !important /*added this one for Edge (chromium) support */
 }
 
 

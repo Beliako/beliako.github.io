@@ -1,12 +1,12 @@
 // Questions data
 const questions = [
   {
-    question: "Lors du Tour de France Cycliste, qui est récompensé d'un maillot blanc à pois rouge ?",
-    choices: ["Le meilleur réparateur de vélo", "Le meilleur grimpeur", "Le coureur le plus combatif","Le plus jeune coureur"],
+    question: "Lors du Tour de France Cycliste, qui est r\351compens\351 d'un maillot blanc \340 pois rouge ?",
+    choices: ["Le meilleur r\351parateur de v\351lo", "Le meilleur grimpeur", "Le coureur le plus combatif","Le plus jeune coureur"],
     correctAnswer: 1
   },
   {
-    question: "Où se sont déroulés les jeux Olympiques d'été en 2016 ?",
+    question: "O\371 se sont d\351roul\351s les jeux Olympiques d'\351t\351 en 2016 ?",
     choices: ["Tunis","Tokyo","Paris","Rio de Janeiro"],
     correctAnswer: 3
   },
@@ -16,23 +16,23 @@ const questions = [
 	 	correctAnswer : 0
 	},
 	{
-	 	question: "Depuis quelle année le badminton est devenu une discipline olympique ?",
+	 	question: "Depuis quelle ann\351e le badminton est devenu une discipline olympique ?",
 		choices: ["1546","1976","1992","2009"],
 		correctAnswer : 2
 	},
 	{
 	 	question: "Le handball est d'origine ?",
-		choices: ["allemande","française","algérienne","américaine"],
+		choices: ["allemande","fran\347aise","alg\351rienne","am\351ricaine"],
 		correctAnswer : 0
 	},
 	{
-	 	question: "Combien y-a-t-il de joueur dans une équipe de basket ?",
+	 	question: "Combien y-a-t-il de joueur dans une \351quipe de basket ?",
 		choices: ["3","0","6","5"], 
 		correctAnswer : 3
 	},
 	{
-	 	question: "De quelle matière sont à l'origine les boules de billard ?",
-		choices: ["bois","ivoire","béton","plastique"],
+	 	question: "De quelle mati\350re sont \340 l'origine les boules de billard ?",
+		choices: ["bois","ivoire","b\351ton","plastique"],
 		correctAnswer : 1
 	},
 	{
@@ -41,7 +41,7 @@ const questions = [
 		correctAnswer : 2
 	},
 	{
-	  question: "En quelle année la France a gagné sa première coupe du monde ?",
+	  question: "En quelle ann\351e la France a gagn\351 sa premi\350re coupe du monde ?",
 		choices: ["1998","2018","2016","1988"],
 		correctAnswer : 0
 	}
@@ -103,7 +103,7 @@ function checkAnswer() {
 function showResult() {
   const totalQuestions = questions.length;
 
-  questionElement.textContent = "Le questionnaire est terminé!";
+  questionElement.textContent = "Le questionnaire est terminÃ©!";
   choicesElement.style.display = "none";
   submitButton.style.display = "none";
 

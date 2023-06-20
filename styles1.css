@@ -11,7 +11,7 @@ body {
 
 nav ul {
   list-style-type: none;
-text-align: center
+	text-align: center
 }
 
 nav ul li {
@@ -40,14 +40,12 @@ main {
 }
 
 h1, h2 {
-  margin-bottom: 5px
-font-size: 40%
+  margin-bottom: 5px;
 }
 
 ul {
   list-style-type: none;
-  margin-bottom: 30px
-font-size : 80%
+  margin-bottom: 30px;
 }
 
 li {
@@ -71,6 +69,11 @@ footer {
 
 p {
 	text-align: center
+}
+
+
+a:hover {
+  background-color: gold;
 }
 
 

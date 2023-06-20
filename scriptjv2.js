@@ -16,8 +16,8 @@ const questions = [
 	 	correctAnswer : 1
 	},
 	{
-	 	question: "Comment s'appelle cette console ?",
-		choices: ["La Super Nes","Le Game cube","La P.S. 2","La nintendo 64"],
+	 	question: "Comment s'appelle le grand méchant de Super Mario Bross ?",
+		choices: ["Solid Snake","Luigi","Toad","Browser"],
 		correctAnswer : 3
 	},
 	{

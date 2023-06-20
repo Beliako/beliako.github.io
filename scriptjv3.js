@@ -1,27 +1,27 @@
 // Questions data
 const questions = [
   {
-    question: "Quel est le personnage principal de la Série The Legend of Zelda ?",
+    question: "Quel est le personnage principal de la S\351rie The Legend of Zelda ?",
     choices: ["Zelda", "Hagrid", "Link","Epona"],
     correctAnswer: 0
   },
   {
-    question: "Comment s'appellent les personnages champignons de la Série Mario ?",
+    question: "Comment s'appellent les personnages champignons de la S\351rie Mario ?",
     choices: ["Les Toals", "Les Toads", "Les Meushrooms", "Les Champagnac"],
     correctAnswer: 1
   },
   {
-	 	question: "Quel est le système de jeux de Fortnite ?",
+	 	question: "Quel est le systÃ¨me de jeux de Fortnite ?",
 	 	choices: ["Un RPG","Un Battle Royal","Un jeu de Survie","Un walking simulator"],
 	 	correctAnswer : 1
 	},
 	{
 	 	question: "Sonic est ?",
-		choices: ["Un hérisson","Un renard", "Un lapin","Un singe"],
+		choices: ["Un h\351risson","Un renard", "Un lapin","Un singe"],
 		correctAnswer : 0
 	},
 	{
-	 	question: "Dans quel jeu le héros est-il Samus Aran ?",
+	 	question: "Dans quel jeu le h\351ros est-il Samus Aran ?",
 		choices: ["Arcadia", "Galaxy Battle", "Metroid", "Grand Test Auto"],
 		correctAnswer : 2
 	},
@@ -31,18 +31,18 @@ const questions = [
 		correctAnswer : 3
 	},
 	{
-	 	question: "Quel est le héros de Tomb Raider ?",
+	 	question: "Quel est le h\351ros de Tomb Raider ?",
 		choices: ["Lara Croft","Jony Sises","Nathan Drake","Peach"],
 		correctAnswer : 0
 	},
 	{
-	  question: "Quels sont les noms des deux personnages par défauts de Minecraft ?",
+	  question: "Quels sont les noms des deux personnages par d\351fauts de Minecraft ?",
 		choices: ["Steve et Alex","Evets et Xela","Axel et Steven","Dream et Fuze"],
 		correctAnswer: 0
 	},
 	{
 	 	question: "Quel est le but d'Animal Crossing ?",
-		choices: ["Elever des animaux","Battre un boss","Créer son île","Faire des courses de Kart"],
+		choices: ["Elever des animaux","Battre un boss","Cr\351er son Ã®le","Faire des courses de Kart"],
 		correctAnswer : 2
 	}	
 		];
@@ -103,7 +103,7 @@ function checkAnswer() {
 function showResult() {
   const totalQuestions = questions.length;
 
-  questionElement.textContent = "Le questionnaire est terminé!";
+  questionElement.textContent = "Le questionnaire est terminÃ©!";
   choicesElement.style.display = "none";
   submitButton.style.display = "none";
 

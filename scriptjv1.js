@@ -7,36 +7,36 @@ const questions = [
     correctAnswer: 2
   },
   {
-    question: "Comment s'appelle les trois d\351esses de la série The Legend of Zelda ?",
+    question: "Comment s'appelle les trois d\351esses de la s\351rie The Legend of Zelda ?",
     choices: ["Din, Naryu et Farore", "Epona, Impa et Celesta", "Firone, Ordin et Lanelle", "Mojo, Goron et Gerudo"],
     correctAnswer: 2
   },
   {
-	 	question: "NES signifie",
-	 	choices: ["New Epic Game","Nintendo Entertainment System","Nouvelle Evolution Sony","Nintendo Energy Super"],
-	 	correctAnswer : 1
-	},
-	{
-	 	question: "Quel est l'ultime boss de Minecraft ?",
-		choices: ["Dragon de l'Ender","Warden", "Zombie Géant","Wither Storm"],
-		correctAnswer : 3
-	},
-	{
-	 	question: "Comment s'appelle le docteur qui accompagne le personnage principal dans Pokémon Arceus ?",
-		choices: ["Romarin", "Thym", "Lavande", "Chiboulet"],
-		correctAnswer : 2
-	},
-	{
-	 	question: "Combien de pièces faut-il pour avoir les roues en or dans Mariokart 7 ?",
-		choices: ["Il ne faut pas pièces, elles se déploquent autrement","15k pièces","Je ne sais pas, personne ne joue à MarioKart7","100k pièces"], 
-		correctAnswer : 1
-	},
-	{
-	 	question: "Que veut dire PES ?",
-		choices: ["Pro Evolution Soccer","Playstation Etertainment System","Partie Extrèmement satisfaisante","Pro Energy Sega"],
-		correctAnswer : 1
-		}
-		];
+    question: "NES signifie",
+    choices: ["New Epic Game","Nintendo Entertainment System","Nouvelle Evolution Sony","Nintendo Energy Super"],
+    correctAnswer : 1
+   },
+   {
+     question: "Quel est l'ultime boss de Minecraft ?",
+     choices: ["Dragon de l'Ender","Warden", "Zombie G\351ant","Wither Storm"],
+     correctAnswer : 3
+   },
+   {
+ 	question: "Comment s'appelle le docteur qui accompagne le personnage principal dans Pok\351mon Arceus ?",
+ 	choices: ["Romarin", "Thym", "Lavande", "Chiboulet"],
+	correctAnswer : 2
+    },
+    {
+        question: "Combien de pi\350ces faut-il pour avoir les roues en or dans Mariokart 7 ?",
+	choices: ["Il ne faut pas pi\350ces, elles se d\351ploquent autrement","15k pi\350ces","Je ne sais pas, personne ne joue \340 MarioKart 7","100k pi\350ces"], 
+	correctAnswer : 1
+    },
+    {
+	question: "Que veut dire PES ?",
+	choices: ["Pro Evolution Soccer","Playstation Etertainment System","Partie Extr\350mement satisfaisante","Pro Energy Sega"],
+	correctAnswer : 1
+    }
+    ];
 
 // Quiz variables
 let currentQuestion = 0;

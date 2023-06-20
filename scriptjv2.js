@@ -1,12 +1,12 @@
 // Questions data
 const questions = [
   {
-    question: "Combien d'étoiles de police peut-on obtenir sur GTA 5 ?",
+    question: "Combien d'\351toiles de police peut-on obtenir sur GTA 5 ?",
     choices: ["3", "4", "5","10"],
     correctAnswer: 2
   },
   {
-    question: "Quel studio a racheté Minecraft ?",
+    question: "Quel studio a rachet\351 Minecraft ?",
     choices: ["Sega","Epic Games","Mojang","Nintendo"],
     correctAnswer: 2
   },
@@ -21,12 +21,12 @@ const questions = [
 		correctAnswer : 3
 	},
 	{
-	 	question: "Quel est le nom du royaume principal du roi dans la Série The Legend of Zelda ?",
-		choices: ["Celesbourg","Firone","Désert Gerudo","Hyrule"],
+	 	question: "Quel est le nom du royaume principal du roi dans la S\351rie The Legend of Zelda ?",
+		choices: ["Celesbourg","Firone","D\351sert Gerudo","Hyrule"],
 		correctAnswer : 3
 	},
 	{
-	 	question: "Quel est le nom du maître de Geralt dans la série the Witcher ?",
+	 	question: "Quel est le nom du ma\356tre de Geralt dans la s\351rie the Witcher ?",
 		choices: ["Jaskier","Vesemir","Yennefer","Eskel"], 
 		correctAnswer : 1
 	},
@@ -98,7 +98,7 @@ function checkAnswer() {
 function showResult() {
   const totalQuestions = questions.length;
 
-  questionElement.textContent = "Le questionnaire est terminé!";
+  questionElement.textContent = "Le questionnaire est terminÃ©!";
   choicesElement.style.display = "none";
   submitButton.style.display = "none";
 

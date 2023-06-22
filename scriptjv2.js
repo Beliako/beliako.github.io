@@ -17,7 +17,7 @@ const questions = [
 	},
 	{
 	 	question: "Comment s'appelle le grand m\351chant de Super Mario Bross ?",
-		choices: ["Solid Snake","Luigi","Toad","Browser"],
+		choices: ["Solid Snake","Luigi","Toad","Bowser"],
 		correctAnswer : 3
 	},
 	{

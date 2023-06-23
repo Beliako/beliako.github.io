@@ -9,7 +9,7 @@ const questions = [
   {
     question: "Comment s'appelle les trois d\351esses de la s\351rie The Legend of Zelda ?",
     choices: ["Din, Naryu et Farore", "Epona, Impa et Celesta", "Firone, Ordin et Lanelle", "Mojo, Goron et Gerudo"],
-    correctAnswer: 2
+    correctAnswer: 0
   },
   {
     question: "NES signifie",
@@ -34,7 +34,7 @@ const questions = [
     {
 	question: "Que veut dire PES ?",
 	choices: ["Pro Evolution Soccer","Playstation Etertainment System","Partie Extr\350mement satisfaisante","Pro Energy Sega"],
-	correctAnswer : 1
+	correctAnswer : 0
     }
     ];
 

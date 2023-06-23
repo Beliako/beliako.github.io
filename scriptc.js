@@ -82,7 +82,7 @@ function checkAnswer() {
 
     if (answer === questions[currentQuestion].correctAnswer) {
       score++;
- }
+    }
 
     currentQuestion++;
 
@@ -103,7 +103,7 @@ function showResult() {
   submitButton.style.display = "none";
 
   const resultElement = document.createElement("p");
-  resultElement.textContent = `Ton score est de ${score} sur ${totalQuestions}.`;
+  resultElement.textContent = `Ton score est de  ${score} sur ${totalQuestions}.`;
   questionElement.parentNode.insertBefore(resultElement, choicesElement);
 
   document.querySelector("footer").style.position = "absolute";
